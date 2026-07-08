@@ -1,26 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset='UTF-8'>
-  <meta name='viewport' content='width=device-width,initial-scale=1'>
-  <title>Valentine</title>
-  <link rel='stylesheet' href='style.css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class='wrapper'>
-    <div class='envelope' id='env'>
-      <div class='letter'>
-        <h2>💖 Love you sujii 💖</h2>
-        <p>You are the reason my heart smiles every day.<br>💖Forever Yours ❤️</p>
-      </div>
-      <div class='front'></div>
-      <div class='flap'></div>
+
+<div class="wrapper">
+
+    <div class="envelope" id="env">
+
+        <div class="letter">
+
+            <h2>💖 Love you Sujii 💖</h2>
+
+            <p>
+                You are the reason my heart<br>
+                smiles every day.
+            </p>
+
+            <div class="message-row">
+                <span>💖 Forever Yours ❤️</span>
+
+                <!-- Replace sujii.jpg with your image -->
+                <img src="IMG_20260616_133830.jpg" alt="Love" class="love-image">
+            </div>
+
+        </div>
+
+        <div class="front"></div>
+        <div class="flap"></div>
+
     </div>
-    <div class='buttons'>
-      <button onclick='openLetter()'>Open</button>
-      <button onclick='closeLetter()'>Close</button>
+
+    <div class="buttons">
+        <button onclick="openLetter()">Open</button>
+        <button onclick="closeLetter()">Close</button>
     </div>
-  </div>
-  <script src='script.js'></script>
+
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
